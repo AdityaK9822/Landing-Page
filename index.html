@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Landing Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+
+  <div class="navbar">AI Mini-Society for Smart Decision Making</div>
+
+
+  <section class="hero">
+    <h1>Multiple AI minds. One intelligent decision.</h1>
+    <p>Simulate human-like collaboration using a network of specialized AI agents that debate, analyze, and agree — helping you make smarter, faster, and more reliable decisions.</p>
+    <button class="btn">Get Started</button>
+  </section>
+
+
+  <section class="cards">
+    <div class="card">
+      <h3>Multi-Agent Intelligence</h3>
+      <p>Instead of relying on one model, our system deploys multiple AI agents — each with a unique role, logic, and viewpoint — working together like a real decision-making group.</p>
+      <button class="btn">Learn More</button>
+    </div>
+
+    <div class="card">
+      <h3>Bias-Aware Reasoning</h3>
+      <p>AI agents challenge each other’s assumptions, detect blind spots, and balance perspectives — reducing bias and preventing one-sided conclusions.</p>
+    </div>
+
+    <div class="card">
+      <h3>Explainable Outcomes</h3>
+      <p>Every conclusion comes with a transparent reasoning trail showing how agents debated and arrived at the final output.</p>
+    </div>
+  </section>
+  <button class="theme-toggle" id="themeBtn">Theme</button>
+
+<script>
+  document.getElementById("themeBtn").addEventListener("click", () => {
+    document.body.classList.toggle("dark-theme");
+  });
+</script>
+
+  <footer class="footer">
+    © 2026 CSS Variables Demo
+  </footer>
+</body>
+</html>
